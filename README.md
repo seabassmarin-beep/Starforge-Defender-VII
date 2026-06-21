@@ -1,4 +1,5 @@
 # Starforge Defender VII
+Open this link: https://seabassmarin-beep.github.io/Starforge-Defender-VII/
 
 **Starforge Defender VII** is an original browser-based space survival game by **seabassmarin-beep**.
 
