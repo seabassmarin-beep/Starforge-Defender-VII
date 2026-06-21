@@ -46,7 +46,7 @@ canvas{display:block;width:100vw;height:100vh;background:#02040b;cursor:crosshai
 <div id="ui">
 <div id="flash"></div><div id="vignette"></div><div id="hudGlass"></div><div id="bars"></div>
 <div id="leftPanel" class="panel">
-  <div class="row"><span class="label">GAME</span><span class="value">Test 3D Game 22</span></div>
+  <div class="row"><span class="label">GAME</span><span class="value">Starforge Defender VII</span></div>
   <div class="row"><span class="label">SCORE</span><span class="value" id="scoreText">0</span></div>
   <div class="row"><span class="label">WAVE</span><span class="value" id="waveText">1</span></div>
   <div class="row"><span class="label">CORES</span><span class="value" id="coreText">0</span></div>
@@ -83,6 +83,7 @@ canvas{display:block;width:100vw;height:100vh;background:#02040b;cursor:crosshai
 </div>
 <script>
 (()=> {
+document.title = "Starforge Defender VII";
 const canvas=document.getElementById("game"),ctx=canvas.getContext("2d"),$=id=>document.getElementById(id);
 let W=innerWidth,H=innerHeight,DPR=1;
 function resize(){DPR=Math.min(2,devicePixelRatio||1);W=innerWidth;H=innerHeight;canvas.width=Math.floor(W*DPR);canvas.height=Math.floor(H*DPR);ctx.setTransform(DPR,0,0,DPR,0,0)}
