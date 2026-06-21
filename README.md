@@ -9,6 +9,8 @@ Defend the Starforge, survive hostile waves, avoid meteors, use lock-on targetin
 
 Open `index.html` in a browser.
 
+If you are using a smartphone use it in landscape.
+
 The game runs as a single HTML file and does not need any extra images, libraries, or downloads.
 
 ## Controls
